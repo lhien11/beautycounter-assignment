@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+ body{
+   background-image: linear-gradient( rgba(44, 39, 39, 0.85), rgba(22, 22, 22, 0.85) );
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+ }
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.searchBar {
+  width: 40%;
+}
+
+.searchButton {
+  margin-left: 10px;
+}
+
+ .fruitContainer{
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  justify-content: center;
+ }
+ 
+ .card {
+  width: 250px;
+  height: 250px;
+  border: 2px solid rgba(238, 127, 108, 0.993);
+  border-radius: 5%;
+  position: relative;
+  margin-left: 1%;
+  margin-top: 1%;
+  padding: 1%;
+  background-color: white;
+ }
+ .img-div {
+  height: 75%;
+ }
+ .desc{
+  position: absolute;
+  bottom: 0;
+ }
+ img{
+  width: 100%;
+  height: 100%;
+ }

@@ -1,0 +1,6 @@
+1) cd backend && npm install && npm start
+2) cd ../frontend && npm install && npm start
+
+Basically npm install backend and frontend folders.
+'npm start' in the backend 
+'npm start' in the frontend
